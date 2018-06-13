@@ -1,0 +1,164 @@
+#footer {
+  background-color: #323232;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  /*フッター固定*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.toppage_icon > a {
+  color: #FFFFFF;
+}
+
+.toppage_icon > a:hover {
+  color: #00FDFF;
+}
+
+.mypage_icon > a {
+  color: #FFFFFF;
+}
+
+.mypage_icon > a:hover {
+  color: #00FDFF;
+}
+
+.guildpage_icon > a {
+  color: #FFFFFF;
+}
+
+.guildpage_icon > a:hover {
+  color: #00FDFF;
+}
+
+.bbs_icon > a {
+  color: #FFFFFF;
+}
+
+.bbs_icon > a:hover {
+  color: #00FDFF;
+}
+#action_icon {
+
+  color: #FFFFFF;
+}
+
+#action_icon :hover {
+  color: #00FDFF;
+  cursor:pointer;
+}
+
+.space_icon > a {
+  color: #FFFFFF;
+}
+
+.space_icon > a:hover {
+  color: #00FDFF;
+}
+
+.message_icon > a {
+  color: #FFFFFF;
+}
+
+.message_icon > a:hover {
+  color: #00FDFF;
+}
+
+.information_icon > a {
+  color: #FFFFFF;
+}
+
+.information_icon > a:hover {
+  color: #00FDFF;
+}
+
+#settings_icon {
+  color: #FFFFFF;
+}
+
+#settings_icon :hover {
+  color: #00FDFF;
+  cursor:pointer;
+}
+
+.killrightleftpadding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*----------------------------*/
+#action_menu {
+    /*relativeだと下側に隙間できる*/
+    position:absolute;
+    width:125px;
+    list-style:none;
+    text-align:center;
+    bottom:39px;
+    left: -35px;
+    /*要素中央寄せのため*/
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background:#323232;
+}
+
+#action_menu li {
+    list-style:none;
+    border:1px solid #FFFFFF;
+    height: 30px;
+    padding: 5px 0px 5px 0px;
+    /*width:100px;*/
+    /*float:left;*/
+    /*position:relative;*/
+    /*bottom: 32px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*text-align: center;*/
+    /*padding-left:0;*/
+}
+
+#action_menu li a {
+    /*width:100px;*/
+    /*float:none;*/
+    /*height:30px;*/
+    /*display:block;*/
+    color:#FFFFFF;
+}
+
+#settings_menu {
+    /*relativeだと下側に隙間できる*/
+    position:absolute;
+    width:125px;
+    list-style:none;
+    text-align:center;
+    bottom:39px;
+    left: -30px;
+    /*要素中央寄せのため*/
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background:#323232;
+}
+
+#settings_menu li {
+    list-style:none;
+    border:1px solid #FFFFFF;
+    height: 30px;
+    padding: 5px 0px 5px 0px;
+    /*width:100px;*/
+    /*float:left;*/
+    /*position:relative;*/
+    /*bottom: 32px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*text-align: center;*/
+    /*padding-left:0;*/
+}
+
+#settings_menu li a {
+    /*width:100px;*/
+    /*float:none;*/
+    /*height:30px;*/
+    /*display:block;*/
+    color:#FFFFFF;
+}
+

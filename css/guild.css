@@ -1,0 +1,277 @@
+#guildbar {
+  background-color: #323232;
+  /*padding-top: 10px;*/
+  padding-bottom: 1px;
+  color: #FFFFFF;
+
+  /*ヘッダーを固定したいがどうやらbootstrapとの相性でうまく機能しない*/
+/*  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;恐らくこれいらない
+  width: 100%;*/
+}
+
+.guildbarbutton {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.guildbarbutton > form > div > button {
+  width: 100%;
+  background-color: #323232;
+  border-color: #FFFFFF;
+}
+
+#guildrogo > img {
+  width: 100px;
+  height: 100px;
+}
+
+#leftsidebar {
+  background-color: #323232;
+  color: #FFFFFF;
+  /*左サイドバー最大化*/
+  height: 650px;
+
+  padding-left: 35px;
+}
+
+.guildtitle {
+  margin: 20px 0px 5px 0px;
+}
+
+.guildmemberpicture > img {
+  border-radius: 100px;
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.guildmembername {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#chatarea {
+  color: #323232;
+  background-color: #FFFFFF;
+  /*チャットエリア最大化*/
+  /*height: 82vh;*/
+  position: fixed;
+  /*スクロール化*/
+  overflow: auto;
+  height:551px;
+  width: 955px;
+  left: 320px;
+}
+
+#inputform {
+  color: #FFFFFF;
+  background-color: #323232;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  left: 317px;
+  bottom: 50px;
+  width: 948px;
+}
+
+#pictureicon {
+  text-align: center;
+}
+
+#pictureicon > label {
+  cursor:pointer;
+}
+
+#pictureicon > label > input {
+  display: none;
+}
+
+#pictureicon > label > i {
+  padding-left: 10px;
+  /*background-color: #FFFFFF;*/
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+#pictureicon > label > i:hover {
+  /*background-color: #00FDFF;*/
+  border-color: #00FDFF;
+  color: #00FDFF;
+}
+
+#emojiicon {
+  text-align: center;
+}
+
+#emojiicon > label {
+  cursor:pointer;
+}
+
+#emojiicon > label > input {
+  display: none;
+}
+
+#emojiicon > label > i {
+  /*padding-left: 30px;*/
+  /*background-color: #FFFFFF;*/
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+#emojiicon > label > i:hover {
+  /*background-color: #00FDFF;*/
+  border-color: #00FDFF;
+  color: #00FDFF;
+}
+
+#inputbox > input {
+  color: #323232;
+  width: 800px;
+}
+
+#sendicon {
+  text-align: center;
+  padding-left: 0px;
+  /*padding-bottom: 3px;*/
+}
+
+#sendicon > button {
+  background-color: #323232;
+  border-color: #323232;
+  padding-top: 0px;
+  border-top: 0px;
+}
+
+#sendicon > button > i {
+  padding-right: 45px;
+}
+
+#sendicon > button > i:hover {
+  /*background-color: #00FDFF;*/
+  border-color: #00FDFF;
+  color: #00FDFF;
+}
+
+.leftusername {
+  margin-left: 37px;
+}
+
+.leftmessage {
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 15px;
+  /*----------*/
+  /*投稿時間の右下寄せに親タグとしてposition: relativeを設定*/
+  /*position: relative;*/
+  /*----------*/
+}
+
+.leftmessage > .profilepicture {
+  border-radius: 100px;
+  /*左上寄せ*/
+  float: left;
+  width: 32px;
+  height: 32px;
+}
+
+.leftmessage > span > .uploadedimage {
+  max-width: 256px;
+  max-height: 256px;
+  widows: 100%;
+}
+
+.leftmessage > .leftmessagebox {
+    /*メッセージは左揃え*/
+    text-align: left;
+    display: inline-block; /*コメントの文字数に合わせて可変*/
+    padding: 15px 20px;
+    margin-left: 5px;
+    /*margin-top: 15px;*/
+    color: #323232;
+    background-color: #00FDFF;
+    border: 2px solid #00FDFF;
+    border-radius: 0px 15px 15px 15px;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+
+.leftdate {
+  margin-left: 37px;
+  /*----------*/
+  /*投稿時間の右下寄せに子タグとしてposition: absoluteを設定*/
+/*  position: absolute;
+  bottom: 0;*/
+  /*----------*/
+}
+
+.rightusername {
+  margin-right: 37px;
+}
+
+.rightmessage {
+  text-align: right;
+  margin-right: 25px;
+  padding-top: 15px;
+  /*----------*/
+  /*投稿時間の右下寄せに親タグとしてposition: relativeを設定*/
+  /*position: relative;*/
+  /*----------*/
+}
+
+.rightmessage > .profilepicture {
+  border-radius: 100px;
+  float: right;
+  width: 32px;
+  height: 32px;
+}
+
+.rightmessage > span > .uploadedimage {
+  max-width: 256px;
+  max-height: 256px;
+  widows: 100%;
+}
+
+.rightmessage > .rightmessagebox {
+    /*メッセージは左揃え*/
+    text-align: left;
+    display: inline-block; /*コメントの文字数に合わせて可変*/
+    padding: 15px 20px;
+    margin-right: 5px;
+    /*margin-top: 15px;*/
+    color: #FFFFFF;
+    background-color: #323232;
+    border: 2px solid #323232;
+    border-radius: 15px 0px 15px 15px;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.rightdate {
+  margin-right: 37px;
+  /*----------*/
+  /*投稿時間の右下寄せに子タグとしてposition: absoluteを設定*/
+/*  position: absolute;
+  bottom: 0;
+  right: 0;*/
+  /*----------*/
+}
+
+.killallmarging {
+  margin: 0px 0px 0px 0px;
+}
+
+.golden-ratio-font__smaller1 {
+  font-size: 12.05px;
+}
+
+.golden-ratio-font__smaller2 {
+  font-size: 10.37px;
+}
+
+.golden-ratio-font__smaller3 {
+  font-size: 8.93px;
+}

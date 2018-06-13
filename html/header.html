@@ -1,0 +1,81 @@
+<div id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+        <form method="POST" action="">
+          <!-- searchフォーム -->
+          <div id="search_form">
+            <input type="text" placeholder=" Search for anything">
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- サインインしている場合 -->
+      <?php if ($headerflag==true): ?>
+        <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-4 col-xs-offset-4">
+          <form action="signout.php">
+            <!-- サインアウトボタン-->
+            <div id="signout_button">
+              <button type="submit">
+                Sign Out
+              </button>
+            </div>
+          </form>
+        </div>
+      <!-- サインインしていない場合 -->
+      <?php else: ?>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-4">
+          <form action="signup.php">
+          <!-- サインアップボタン-->
+            <div id="signup_button">
+              <button type="submit">
+                Sing Up
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-4">
+          <form action="signin.php">
+            <!-- サインインボタン-->
+            <div id="signin_button">
+              <button type="submit">
+                Sign In
+              </button>
+            </div>
+          </form>
+        </div>
+      <?php endif; ?>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-4">
+        <!-- User Icon -->
+        <div id="user_icon">
+          <!-- サインインしている場合 -->
+          <?php if ($headerflag==true): ?>
+            <script>
+              $('.signinusernamebox').slideToggle('slow');
+            </script>
+            <a href="javascript:showusername();" style="color:#00FDFF">
+              <i class="fas fa-user-circle fa-2x fa-fw"></i>
+            </a>
+          <?php else: ?>
+          <!-- サインインしていない場合 -->
+            <a href="" style="color:#FFFFFF">
+              <i class="fas fa-user-circle fa-2x fa-fw"></i>
+            </a>
+          <?php endif; ?>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-4 killallpadding">
+        <!-- Signin User Name -->
+        <div class="signinusernamebox" style="color:#FFFFFF">
+          <?php if ($headerflag==true): ?>
+            <?php echo $_SESSION['user_parameter']['username'] ?>
+          <?php else: ?>
+          <?php endif; ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

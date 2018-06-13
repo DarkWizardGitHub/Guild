@@ -1,0 +1,228 @@
+.userbar {
+  color: #FFFFFF;
+  background-color: #323232;
+}
+
+#body2 {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  margin-top: 25px;
+}
+
+#body4 {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  margin: 25px 0px 0px 0px;
+  border: 0.5px solid #323232;
+}
+
+#body5 {
+  margin: 0px 0px 75px 0px;
+}
+
+.profilepicture {
+  text-align: center;
+}
+
+.profilepicture > img {
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#point {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#point > a {
+  color: #00FDFF;
+}
+
+#jobrank {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#jobrank > a {
+  color: #00FDFF;
+}
+
+#influence {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#influence > a {
+  color: #00FDFF;
+}
+
+#renown {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#renown > a {
+  color: #00FDFF;
+}
+
+#achievement {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#achievement > a {
+  color: #00FDFF;
+}
+
+#settings {
+  text-align: center;
+  margin-top: 33px;
+}
+
+#settings > a {
+  color: #FFFFFF;
+}
+
+.headline {
+  color: #323232;
+  padding: 0px 0px 5px 0px;
+}
+
+.jobrank {
+  color: #323232;
+  background-color: #00FDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  padding: 0 0 0 0;
+}
+
+.jobrank {
+  color: #323232;
+  background-color: #00FDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-bottom: 0px;
+  padding: 0 0 0 0;
+}
+
+.jobclass {
+  color: #323232;
+  background-color: #00FDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 0 0 0 0;
+}
+
+.jobmedal {
+  color: #323232;
+  background-color: #00FDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-top: 0px;
+  padding: 0 0 0 0;
+}
+
+.subjobclass {
+  color: #FFFFFF;
+  background-color: #323232;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+}
+
+.profilecomment {
+  color: #323232;
+  display: flex;
+  justify-content: center;
+  height: 360px;
+  border: 1px solid #323232;
+  overflow: auto;
+}
+
+.portfoiloicon {
+  text-align: center;
+  margin: 35px 0px 10px 0px;
+}
+
+.portfoiloicon > a {
+  color: #323232;
+}
+
+.portfoiloicon > a:hover{
+  color: #00FDFF;
+}
+
+.frametype0 {
+  text-align: center;
+  margin: 30px 0px 40px 0px;
+}
+
+.frametype1 {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+}
+
+.frametype2 {
+  /*text-align: center;*/
+  margin: 10px 0px 0px 0px;
+}
+
+.portfoliocontent {
+  margin: 30px 0px 0px 0px;
+}
+
+.thumbnail_picturetype0 > img {
+/*  width: 358.4px;
+  height: 358.4px;*/
+  width: 320px;
+  height: 320px;
+}
+
+.thumbnail_picturetype1 > img {
+  width: 256px;
+  height: 256px;
+}
+
+.thumbnail_picturetype2 > img {
+  width: 640px;
+  height: 640px;
+}
+
+.killallmarging {
+  margin: 0px 0px 0px 0px;
+}
+
+.killallpadding {
+  padding: 0px 0px 0px 0px;
+}
+
+.golden-ratio-font__larger1 {
+  font-size: 16.27px;
+}
+
+.golden-ratio-font__larger2 {
+  font-size: 18.90px;
+}
+
+.golden-ratio-font__larger3 {
+  font-size: 21.95px;
+}

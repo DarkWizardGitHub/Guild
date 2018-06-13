@@ -1,0 +1,58 @@
+/*@charset "UTF-8" ;*/
+
+body {
+ width: 100%;
+ padding: 0;
+}
+
+/*モーダルフォーム*/
+/*画面上の固定位置は、top(画面上部から何ピクセルか)と、left(画面左部から何ピクセルか)でjQueryによって動的に指定*/
+.modalcontent {
+ width: 50%;
+ margin: 0;
+ padding: 10px 20px;
+ border: 2px solid #aaa;
+ background: #fff;
+/*対象の要素を指定した位置に固定する
+ →ページをスクロールしても、ずっと画面上のその位置に固定する*/
+ position: fixed;
+ display: none;
+ /*(z-index:0)通常表示されている他のコンテンツ*/
+ /*(z-index:1)オーバーレイ*/
+ /*(z-index:2)モーダルウィンドウのコンテンツ*/
+ z-index: 2;
+}
+
+.modalcontentinnar{
+ margin:0 auto;
+ width:80%;
+}
+
+/*オーバーレイ*/
+/*HTML部はJavaScriptにて動的に生成*/
+#overlay {
+ z-index: 1;
+ display: none;
+ top: 0;
+ left: 0;
+ /*ページ全体ではなく画面全体を覆う*/
+ position: fixed;
+ width: 100%;
+/*スマホ対策(iPhoneではスクロールをすると上下のナビバーが隠れる仕組みになっているため、heightの値が変わってしまう)
+ オーバーレイが画面の高さよりも小さくなってしまう不具合を回避するため余裕を持って120%の値を指定*/
+ height: 120%;
+ /*色を16進数(Hex)ではなく、rgbaで指定することで、不透明度を加える*/
+ /*モーダルウィンドウを表示した時、コンテンツが背景にうっすらと映っている状態にするのに必要*/
+ /*()内の第1〜3引数がRGB指定による色、第4引数が不透明度*/
+ background-color: rgba( 0,0,0, 0.75 );
+}
+
+.buttonlink {
+ color: #00f;
+ text-decoration: underline;
+}
+
+.buttonlink:hover {
+ cursor: pointer;
+ color: #f00;
+}

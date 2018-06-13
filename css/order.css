@@ -1,0 +1,43 @@
+.marging-bottom {
+  margin-bottom: 25px;
+}
+
+.titleinputbox > input {
+  width: 100%;
+}
+
+.rewardpointinputbox > input {
+  width: 100%;
+}
+.contentinputbox > textarea {
+  width: 100%;
+}
+
+.backbutton {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.backbutton > a {
+  color: #FFFFFF;
+}
+
+.backbutton > a > button {
+  background-color: #323232;
+  width: 30%;
+}
+
+.sendbutton {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.sendbutton > button {
+  background-color: #00FDFF;
+  width: 30%;
+}
+
+.killrightleftmarging {
+  margin-right: 0px;
+  margin-left: 0px;
+}

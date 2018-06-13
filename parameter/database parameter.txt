@@ -1,0 +1,4 @@
+mysql:dbname=phptest
+host=localhost
+root
+

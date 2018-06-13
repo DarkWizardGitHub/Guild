@@ -1,0 +1,86 @@
+/*Bootstrap以外のcss*/
+#header {
+  background-color: #323232;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#search_form {
+  /*フォーム内要素として検索内容入力ボックスとsubmitボタン横並び表示*/
+  display:inline-flex;
+}
+
+#search_form > input {
+  width: 500px;
+  height: 25px;
+}
+
+#search_form > button {
+  width: 25px;
+  height: 25px;
+  /*searchアイコンの位置調整*/
+  padding-right: 0px;
+  padding-left: 0px;
+
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #323232;
+}
+
+#search_form > button:hover {
+  background-color: #00FDFF;
+  border-color: #00FDFF;
+  color: #323232;
+}
+
+#signup_button > button {
+  width: 75px;
+  height: 25px;
+
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #323232;
+}
+
+#signup_button > button:hover {
+  background-color: #00FDFF;
+  border-color: #00FDFF;
+  color: #323232;
+}
+
+#signin_button > button {
+  width: 75px;
+  height: 25px;
+
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #323232;
+}
+
+#signin_button > button:hover {
+  background-color: #00FDFF;
+  border-color: #00FDFF;
+  color: #323232;
+}
+
+#signout_button > button {
+  width: 75px;
+  height: 25px;
+
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #323232;
+}
+
+#signout_button > button:hover {
+  background-color: #00FDFF;
+  border-color: #00FDFF;
+  color: #323232;
+}
+
+.signinusernamebox {
+  color: #FFFFFF;
+  border: 1px solid #323232;
+  /*display: none;*/
+  width: 100%;
+}
